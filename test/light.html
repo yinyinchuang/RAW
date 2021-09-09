@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lightbox.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="lightbox_background"></div>
+    <!-- 彈出光箱 -->
+    <div class="lookbook_lightbox_container">
+        <!-- 放內容 -->
+        光箱
+    </div>
+    <!-- 觸發的區域 按鈕之類的 -->
+    <div class="lookbook_photo_card">
+        點這裡
+    </div>
+    <script>
+        // lookbook_lightbox
+        $('.lookbook_photo_card').click(function(event) {
+            $('.lookbook_lightbox_container').toggleClass('open');
+            $('.lightbox_background').toggleClass('open');
+        });
+        $('.lookbook_lightbox_close').click(function(event) {
+            $('.lookbook_lightbox_container').toggleClass('open');
+            $('.lightbox_background').toggleClass('open');
+        });
+        $('.lightbox_background').click(function(event) {
+            $('.lookbook_lightbox_container').toggleClass('open');
+            $('.lightbox_background').toggleClass('open');
+        });
+    </script>
+</body>
+
+</html>

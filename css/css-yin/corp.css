@@ -1,0 +1,193 @@
+:root {
+    /* header */
+    --header-height: 80px;
+    /* btn */
+    --large-btn-height: 60px;
+    --btn-height: 32px;
+    --large-btn-width: 282px;
+    --btn-width: 88px;
+    /* rwd btn */
+    --rwd-btn-height: 40px;
+    --rwd-large-btn-width: 345px;
+    --rwd-btn-width: 165px;
+    --rwd-small-btn-width: 115px;
+    /* card */
+    --card-img-width: 282px;
+    --card-img-height: 376px;
+    /* rwd card */
+    --rwd-card-img-width: 165px;
+    --rwd-card-img-height: 220px;
+    /* color */
+    --main-color: #BCAA9A;
+    --light-color: #EBE7E3;
+    --white-color: #FAFAFA;
+    --fea-color: #707070;
+    --lightbox-color: #BCAA9A50;
+    /* font */
+    --body-font: 'Noto Sans TC', sans-serif;
+    --login-font-size: 45px;
+    --large-font-size: 24px;
+    --title-font-size: 20px;
+    --normal-font-size: 16px;
+    --small-font-size: 12px;
+    --font-weigh: 300;
+    --hover-font-weigh: 500;
+    /* rwd font */
+    --rwd-normal-font-size: 14px;
+    /* mb */
+    --mb-headandfoot: 80px;
+    --mb-normal: 32px;
+    --mb-box: 16px;
+    --mb-small: 12px;
+    --mb-smaller: 8px;
+    /* rwd mb */
+    --rwd-mb-headandfoot: 30px;
+    --rwd-mb-normal: 15px;
+    /* mr */
+    --mr--card: 24px;
+    /* box-shadow */
+    --box-shadow: 5px 5px 10px #BCAA9A50;
+    --box-shadow-footer: -5px -5px 10px #BCAA9A50;
+    /* outline */
+    --normal-outline: 1px solid var(--main-color);
+}
+
+
+.corp_sidebar {
+    width: 240px;
+    /* margin-right: 66px; */
+    height: 840px;
+    /* position: fixed; */
+}
+
+.corp_menu {
+    height: var(--large-btn-height);
+    width: 240px;
+    border: var(--normal-outline);
+}
+
+.corp_menu h2 {
+    font-size: var(--title-font-size);
+    text-align: center;
+    line-height: var(--large-btn-height);
+}
+
+.corp_menu:not(:nth-child(3n)) {
+    margin-bottom: -1px;
+}
+
+/* .corp_menu p {
+    display: none;
+    font-size: var(--title-font-size);
+    border-left: var(--normal-outline);
+    border-right: var(--normal-outline);
+    text-align: center;
+    line-height: var(--large-btn-height);
+} */
+
+/* .corp_menu:nth-last-child(1) {
+    border-bottom: var(--normal-outline);
+} */
+
+.current {
+    background-color: #EEEAE6;
+}
+
+
+@media screen and (max-width:375px) { 
+
+    .corp_sidebar {
+        width: var(--rwd-large-btn-width);
+        height: 40px;
+        display: flex;
+    }
+    
+    .corp_menu {
+        height: var(--rwd-btn-height);
+        /* width: 240px; */
+        border: var(--normal-outline);
+    }
+    
+    .corp_menu h2 {
+        font-size: var(--rwd-normal-font-size);
+        text-align: center;
+        line-height: var(--rwd-btn-height);
+    }
+    
+    .corp_menu:not(:nth-child(3n)) {
+        margin-right: -1px;
+    }
+  }
+
+
+.corp_body {
+    width: 894px;
+    /* height: 840px; */
+    min-height: 80vh;
+    border: var(--normal-outline);
+    padding: 32px;
+    /* overflow: scroll; */
+    /* top: 0; */
+    /* margin-left: 306px; */
+}
+
+.corp_content {
+    margin-bottom: var(--mr--card);
+}
+
+.corp_content:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.corp_content h2 {
+    font-size: var(--title-font-size);
+    /* line-height: var(--title-font-size); */
+    padding-left: 20px;
+    background: url(../../svg/plus.svg) no-repeat left center / 14px 14px;
+}
+
+.corp_content h2.corp_close {
+    background: url(../../svg/minus.svg) no-repeat left center / 14px 14px;
+}
+
+.corp_content p {
+    display: none;
+    font-size: var(--normal-font-size);
+    line-height: 25px;
+    margin-top: var(--mb-box);
+    margin-left: 40px;
+}
+
+.corp_content p.corp_open {
+    display: block;
+}
+
+@media screen and (max-width:375px) {
+    .corp_body {
+        width: var(--rwd-large-btn-width);
+        margin-top: var(--rwd-mb-normal);
+        padding: var(--rwd-mb-normal);
+    }
+
+    .corp_content h2 {
+        font-size: var(--rwd-normal-font-size);
+        padding-left: 16px;
+        line-height: var(--rwd-normal-font-size);
+        background: url(../../svg/plus.svg) no-repeat left center / 10px 10px;
+    }
+
+    .corp_content h2.corp_close {
+        background: url(../../svg/minus.svg) no-repeat left center / 10px 10px;
+    }
+
+    .corp_content p {
+        display: none;
+        font-size: var(--rwd-normal-font-size);
+        line-height: 22px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+

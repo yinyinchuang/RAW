@@ -1,0 +1,918 @@
+:root {
+    /* header */
+    --header-height: 80px;
+    /* btn */
+    --large-btn-height: 60px;
+    --btn-height: 32px;
+    --large-btn-width: 282px;
+    --btn-width: 88px;
+    /* rwd btn */
+    --rwd-btn-height: 40px;
+    --rwd-large-btn-width: 345px;
+    --rwd-btn-width: 165px;
+    --rwd-small-btn-width: 115px;
+    /* card */
+    --card-img-width: 282px;
+    --card-img-height: 376px;
+    /* rwd card */
+    --rwd-card-img-width: 165px;
+    --rwd-card-img-height: 220px;
+    /* color */
+    --main-color: #BCAA9A;
+    --light-color: #EBE7E3;
+    --white-color: #FAFAFA;
+    --fea-color: #707070;
+    --lightbox-color: #BCAA9A50;
+    --soldout-color: #DDD4CC;
+    /* font */
+    --body-font: 'Noto Sans TC', sans-serif;
+    --login-font-size: 45px;
+    --large-font-size: 24px;
+    --title-font-size: 20px;
+    --normal-font-size: 16px;
+    --small-font-size: 12px;
+    --font-weigh: 300;
+    --hover-font-weigh: 500;
+    /* rwd font */
+    --rwd-normal-font-size: 14px;
+    /* mb */
+    --mb-headandfoot: 80px;
+    --mb-normal: 32px;
+    --mb-box: 16px;
+    --mb-small: 12px;
+    --mb-smaller: 8px;
+    /* rwd mb */
+    --rwd-mb-headandfoot: 30px;
+    --rwd-mb-normal: 15px;
+    /* mr */
+    --mr--card: 24px;
+    /* box-shadow */
+    --box-shadow: 5px 5px 10px #BCAA9A50;
+    --box-shadow-footer: -5px -5px 10px #BCAA9A50;
+    /* outline */
+    --normal-outline: 1px solid var(--main-color);
+    --soldout-outline: 1px solid var(--soldout-color);
+}
+
+
+/* ------------------- */
+
+
+/* big carousel */
+
+.nadia_row_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.nadia_carousel {
+    width: 894px;
+    height: 528px;
+    position: relative;
+}
+
+.nadia_carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nadia_carousel_goods_one {
+    width: 180px;
+    height: 248px;
+    position: absolute;
+    top: 155px;
+    opacity: .7;
+    z-index: 1;
+}
+
+.nadia_carousel_goods_two {
+    width: 242px;
+    height: 334px;
+    position: absolute;
+    top: 105px;
+    left: 75px;
+    opacity: .7;
+    z-index: 2;
+}
+
+.nadia_carousel_goods_three {
+    width: 286px;
+    height: 394px;
+    position: absolute;
+    top: 70px;
+    left: 185px;
+    opacity: .7;
+    z-index: 3;
+}
+
+.nadia_carousel_goods_four {
+    width: 331px;
+    height: 456px;
+    position: absolute;
+    top: 35px;
+    left: 331px;
+    opacity: .7;
+    z-index: 4;
+}
+
+.nadia_carousel_goods_five {
+    width: 384px;
+    height: 528px;
+    position: absolute;
+    right: 10px;
+    z-index: 5;
+}
+
+.nadia_carousel_goods_chevronleft {
+    position: absolute;
+    top: 250px;
+    right: 365px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.nadia_carousel_goods_chevronright {
+    position: absolute;
+    top: 250px;
+    right: 25px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.nadia_carousel_rwd {
+    position: relative;
+    top: 30px;
+}
+
+.nadia_carousel_rwd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nadia_carousel_goods_one_rwd,
+.nadia_carousel_goods_two_rwd,
+.nadia_carousel_goods_three_rwd,
+.nadia_carousel_goods_four_rwd,
+.nadia_carousel_goods_five_rwd {
+    width: 345px;
+    height: 460px;
+}
+
+.nadia_carousel_goods_chevronleft_rwd {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.nadia_carousel_goods_chevronright_rwd {
+    position: absolute;
+    top: 230px;
+    right: 35px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+@media (max-width:375px) {
+    .nadia_row_top {
+        margin-top: -45px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nadia_carousel {
+        display: none;
+    }
+    .nadia_carousel_rwd {
+        top: 60px;
+        left: 15px;
+        display: block;
+    }
+}
+
+
+/* goods info */
+
+.nadia_info {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.nadia_info p {
+    font-size: var(--title-font-size);
+}
+
+.nadia_first {
+    cursor: pointer;
+}
+
+.nadia_second {
+    width: 282px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_second_heart {
+    width: 15px;
+    /* height: 15px; */
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nadia_third {
+    margin-top: 12px;
+    cursor: default;
+}
+
+.nadia_fourth {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.nadia_fourth_color {
+    display: flex;
+    float: left;
+}
+
+.nadia_fourth ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nadia_fourth ul li {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.goodscolorbtn_1 {
+    background-color: #aca394;
+}
+
+.goodscolorbtn_2 {
+    background-color: #BCAA9A;
+}
+
+.goodscolorbtn_3 {
+    background-color: #C29779;
+}
+
+.goodscolorbtn_4 {
+    background-color: #A76350;
+}
+
+.goodscolorbtn_5 {
+    background-color: #C19280;
+}
+
+.goodscolorbtn_6 {
+    background-color: #9A514A;
+}
+
+.goodscolorbtn_7 {
+    background-color: #F0E5CF;
+}
+
+.goodscolorbtn_8 {
+    background-color: #EDDDC3;
+}
+
+.goodscolorbtn_9 {
+    background-color: #d9c6a5;
+}
+
+.goodscolorbtn_10 {
+    background-color: #946D46;
+}
+
+.goodscolorbtn_11 {
+    background-color: #e7c48a;
+}
+
+.goodscolorbtn_12 {
+    background-color: #AAA57A;
+}
+
+.goodscolorbtn_13 {
+    background-color: #AC9762;
+}
+
+.goodscolorbtn_14 {
+    background-color: #3F4F45;
+}
+
+.goodscolorbtn_15 {
+    background-color: #6C817C;
+}
+
+.goodscolorbtn_16 {
+    background-color: #DEE1C4;
+}
+
+.goodscolorbtn_17 {
+    background-color: #0A5D75;
+}
+
+.goodscolorbtn_18 {
+    background-color: #5D6186;
+}
+
+.goodscolorbtn_19 {
+    background-color: #000000;
+}
+
+.goodscolorbtn_20 {
+    background-color: #FFFFFF;
+}
+
+.nadia_fourth_colorname {
+    cursor: default;
+}
+
+.nadia_fifth {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_fifth_sizeSM {
+    width: 79px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_fifth_sizeL {
+    width: 79px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_sixth {
+    width: 282px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--normal-outline);
+    margin-top: 16px;
+}
+
+.nadia_sixth_minus {
+    width: 9px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nadia_cartnumber {
+    cursor: default;
+}
+
+.nadia_sixth_plus {
+    width: 9px;
+    height: 9px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nadia_seventh {
+    width: 282px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--normal-outline);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nadia_addtocart {
+    width: 480px;
+    height: 1375px;
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 75% !important;
+    top: 0;
+    display: none;
+    margin-top: -5px;
+}
+
+.nadia_addtocart_left {
+    float: left;
+}
+
+.nadia_addtocart_left img {
+    width: 128px;
+    height: 170px;
+    margin-top: 160px;
+    margin-left: 32px;
+}
+
+.nadia_addtocart_right {
+    margin-top: 158px;
+    margin-left: 32px;
+    float: left;
+}
+
+.nadia_addtocart_goodsname {
+    width: 120%;
+    margin-bottom: 12px;
+}
+
+.nadia_addtocart_price {
+    margin-bottom: 12px;
+}
+
+.nadia_addtocart_right_color {
+    width: 105%;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.nadia_addtocart_color span {
+    padding-right: 15px;
+}
+
+.nadia_addtocart_color img {
+    padding-right: 15px;
+}
+
+.nadia_addtocart_trash {
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.nadia_addtocart_right_size {
+    margin-bottom: 12px;
+}
+
+.nadia_addtocart_right_size span {
+    padding-right: 18px;
+}
+
+.nadia_addtocart_right_cartnumber span {
+    padding-right: 18px;
+}
+
+.nadia_addtocart_check {
+    width: 384px;
+    height: 60px;
+    border: 1px solid #BCAA9A;
+    margin-top: 400px;
+    margin-left: 7%;
+}
+
+.nadia_addtocart_check span {
+    display: flex;
+    justify-content: center;
+    line-height: 3.5;
+}
+
+.nadia_seventh .item-close {
+    cursor: pointer;
+    right: 30px;
+    top: 80px;
+    position: absolute;
+}
+
+.nadia_login {
+    width: 550px;
+    height: 550px;
+    background-color: #FAFAFA;
+    text-align: center;
+    line-height: 2;
+    margin: 0 auto;
+    /* margin-top: 10%; */
+    padding-top: 20px;
+    padding-right: 10px;
+    z-index: 999;
+    display: none
+}
+
+.nadia_login a {
+    text-decoration: none;
+}
+
+.nadia_logininput span {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+input {
+    width: 360px;
+    height: 60px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 12px;
+    border: var(--normal-outline);
+}
+
+.nadia_inputbox1 {
+    margin-bottom: 30px;
+}
+
+.nadia_inputbox2 {
+    position: relative;
+    display: inline-block;
+}
+
+.nadia_inputbox2 img {
+    position: absolute;
+    right: 15px;
+    bottom: 22px;
+    cursor: pointer;
+}
+
+.nadia_loginconfirm {
+    width: 158px;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    margin-left: 37%;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nadia_loginconfirm span {
+    padding-left: 15%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.nadia_logo {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-bottom: 55px;
+}
+
+.nadia_logo img {
+    width: 25%;
+}
+
+.nadia_forgetregister {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.nadia_forget {
+    padding-right: 30px;
+    border-right: 1px solid #BCAA9A;
+}
+
+.nadia_register {
+    padding-left: 60px;
+}
+
+.nadia_login_close img {
+    cursor: pointer;
+    position: relative;
+    bottom: 488px;
+    left: 250px;
+}
+
+.nadia_login .item {
+    /* width: 1150px; */
+    /* padding: 1em; */
+    background: #FFF;
+    display: none;
+    position: relative;
+}
+
+.nadia_eighth {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_eighth small {
+    line-height: 2.5;
+}
+
+.nadia_eighth_left {
+    width: 129px;
+    height: 32px;
+    text-align: center;
+    border: var(--normal-outline);
+}
+
+.nadia_eighth_left .item {
+    width: 1150px;
+    padding: 1em;
+    background: #FFF;
+    display: none;
+    position: relative;
+}
+
+.nadia_eighth_left .item-close {
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    position: absolute;
+}
+
+.nadia_eighth_right {
+    width: 129px;
+    height: 32px;
+    text-align: center;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_eighth_right .item {
+    width: 1150px;
+    padding: 1em;
+    background: #FFF;
+    display: none;
+    position: relative;
+}
+
+.nadia_eighth_right .item-close {
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    position: absolute;
+}
+
+.nadia_ninth {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+@media (max-width:375px) {
+    .nadia_info {
+        margin-top: 80px;
+    }
+    .nadia_info p {
+        font-size: var(--rwd-normal-font-size);
+    }
+    .nadia_first small {
+        font-size: var(--small-font-size);
+    }
+    .nadia_second_heart img {
+        height: 14px;
+        margin-left: 75px;
+    }
+    .nadia_fourth {
+        margin-top: 20px;
+    }
+    /* .nadia_fourth_color ul li {
+        width: 18px;
+        height: 18px;
+    } */
+    .nadia_fourth_colorname span {
+        font-size: var(--rwd-normal-font-size);
+    }
+    .nadia_fifth {
+        width: 350px;
+    }
+    .nadia_fifth_sizeSM {
+        width: 105px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .nadia_fifth_sizeL {
+        width: 105px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .nadia_sixth {
+        width: 345px;
+        height: 40px;
+    }
+    .nadia_seventh {
+        width: 345px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    .nadia_seventh span {
+        font-size: 14px;
+    }
+    .nadia_eighth {
+        width: 345px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+    .nadia_eighth small {
+        line-height: 3;
+        font-size: var(--small-font-size);
+    }
+    .nadia_eighth_left,
+    .nadia_eighth_right {
+        width: 165px;
+        height: 40px;
+    }
+    .nadia_eighth_left .item,
+    .nadia_eighth_left #item3,
+    .nadia_eighth_left .animated,
+    .nadia_eighth_left .slideInUp {
+        display: none;
+    }
+    .nadia_eighth_left .rwd_item {
+        display: block;
+    }
+    .nadia_ninth {
+        margin-top: 30px;
+    }
+}
+
+
+/* recommend goods */
+
+.nadia_recommend {
+    cursor: default;
+    margin-bottom: var(--mb-normal);
+    margin-top: 32px;
+    margin-left: -2px;
+}
+
+.nadia_recommend ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nadia_recommend ul li {
+    margin-right: 30px;
+}
+
+.nadia_recommend .recommendcolor {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.nadia_recommend p {
+    margin-right: 32px;
+}
+
+.nadia_recommend_goods {
+    display: flex;
+    position: relative;
+    width: calc(100% - 100px);
+    max-width: 700px;
+}
+
+.is-control {
+    background: 0;
+    border: 0;
+    padding: 0 10px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 40px;
+    transition: all .2s linear;
+}
+
+.previous-button {
+    position: absolute;
+    left: -40px;
+    top: 60px;
+}
+
+.next-button {
+    position: absolute;
+    right: -30px;
+    top: 65px;
+}
+
+.nadia_recommend_goods_data_slick img {
+    position: relative;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.nadia_recommend_goods_data_slick:focus {
+    outline: 0;
+}
+
+.nadia_recommend_goods_rwd {
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.nadia_recommend_goods_data_slick_rwd img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: -15px;
+}
+
+.previous-button_rwd {
+    position: absolute;
+    left: -30px;
+    top: 50px;
+}
+
+.next-button_rwd {
+    position: absolute;
+    right: -5px;
+    top: 50px;
+}
+
+@media (min-width: 375px) {
+    .nadia_recommend_goods_rwd {
+        display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .nadia_row_bottom {
+        margin-bottom: 15%;
+    }
+    .nadia_recommend {
+        padding-left: 30px;
+        margin-bottom: 50px;
+    }
+    .nadia_recommend p {
+        font-size: 14px;
+    }
+    .nadia_recommend li {
+        font-size: 14px;
+    }
+    .nadia_recommend_goods {
+        display: none;
+    }
+    .nadia_recommend_goods_rwd {
+        display: block;
+    }
+}
+
+
+/* lightbox */
+
+.lightbox_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: var(--lightbox-color);
+    z-index: 1;
+    display: none;
+}
+
+.lightbox_background.open {
+    display: block;
+}
+
+
+/* lookbook_lightbox */
+
+.lookbook_lightbox_container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: var(--mb-box);
+    background: var(--white-color);
+    box-shadow: var(--box-shadow);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 6;
+}
+
+.lookbook_lightbox_container.open {
+    display: flex;
+}
+
+.lookbook_lightbox_content {
+    display: flex;
+    padding: 0 var(--mb-box) var(--mb-box) var(--mb-box);
+}
+
+img.lookbook_lightbox_close {
+    width: var(--normal-font-size);
+    height: var(--normal-font-size);
+    margin-bottom: var(--mb-box);
+}

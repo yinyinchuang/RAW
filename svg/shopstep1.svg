@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 470 92" style="enable-background:new 0 0 470 92;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAE6E2;}
+	.st1{fill:#BAA899;}
+	.st2{fill:none;stroke:#BAA899;}
+	.st3{fill:none;stroke:#EAE6E2;}
+	.st4{font-family:'NotoSansTC-Medium-83pv-RKSJ-H';}
+	.st5{font-size:12px;}
+	.st6{fill:#FBFBFB;}
+	.st7{font-size:20px;}
+</style>
+<g id="三段" transform="translate(-726 -200)">
+	<rect id="長方形_6" x="756.6" y="225.6" class="st0" width="200" height="10"/>
+	<g id="楕円形_1" transform="translate(726 200)">
+		<circle class="st1" cx="30.6" cy="30.6" r="30"/>
+		<circle class="st2" cx="30.6" cy="30.6" r="29.5"/>
+	</g>
+	<g id="楕円形_2" transform="translate(930 200)">
+		<circle class="st0" cx="30.6" cy="30.6" r="30"/>
+		<circle class="st3" cx="30.6" cy="30.6" r="29.5"/>
+	</g>
+	<g id="楕円形_3" transform="translate(1135 200)">
+		<circle class="st0" cx="30.6" cy="30.6" r="30"/>
+		<circle class="st3" cx="30.6" cy="30.6" r="29.5"/>
+	</g>
+	<rect id="長方形_7" x="962.6" y="225.6" class="st0" width="200" height="10"/>
+	<text transform="matrix(1 0 0 1 738.6194 289.5743)" class="st1 st4 st5">購物車</text>
+	<text transform="matrix(1 0 0 1 930.6194 289.5743)" class="st1 st4 st5">運送及付款</text>
+	<text transform="matrix(1 0 0 1 1141.6194 289.5743)" class="st1 st4 st5">最後確認</text>
+	<text transform="matrix(1 0 0 1 751.6194 238.5743)" class="st6 st4 st7">1</text>
+	<text transform="matrix(1 0 0 1 955.6194 238.5743)" class="st1 st4 st7">2</text>
+	<text transform="matrix(1 0 0 1 1160.6194 238.5743)" class="st1 st4 st7">3</text>
+</g>
+</svg>

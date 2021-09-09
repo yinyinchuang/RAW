@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.777" height="22" viewBox="0 0 19.777 22">
+  <g id="FeatherIconSet_Feather_User_user" data-name="FeatherIconSet/Feather_User/user" transform="translate(-3 -2)">
+    <g id="user" transform="translate(4 3)">
+      <path id="Path" d="M17.778,6.667V4.444A4.444,4.444,0,0,0,13.333,0H4.444A4.444,4.444,0,0,0,0,4.444V6.667" transform="translate(0 13.333)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Oval" cx="4.444" cy="4.444" r="4.444" transform="translate(4.444)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

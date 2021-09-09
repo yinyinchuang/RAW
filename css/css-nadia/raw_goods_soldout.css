@@ -1,0 +1,356 @@
+:root {
+    /* header */
+    --header-height: 80px;
+    /* btn */
+    --large-btn-height: 60px;
+    --btn-height: 32px;
+    --large-btn-width: 282px;
+    --btn-width: 88px;
+    /* rwd btn */
+    --rwd-btn-height: 40px;
+    --rwd-large-btn-width: 345px;
+    --rwd-btn-width: 165px;
+    --rwd-small-btn-width: 115px;
+    /* card */
+    --card-img-width: 282px;
+    --card-img-height: 376px;
+    /* rwd card */
+    --rwd-card-img-width: 165px;
+    --rwd-card-img-height: 220px;
+    /* color */
+    --main-color: #BCAA9A;
+    --light-color: #EBE7E3;
+    --white-color: #FAFAFA;
+    --fea-color: #707070;
+    --lightbox-color: #BCAA9A50;
+    --soldout-color: #DDD4CC;
+    /* font */
+    --body-font: 'Noto Sans TC', sans-serif;
+    --login-font-size: 45px;
+    --large-font-size: 24px;
+    --title-font-size: 20px;
+    --normal-font-size: 16px;
+    --small-font-size: 12px;
+    --font-weigh: 300;
+    --hover-font-weigh: 500;
+    /* rwd font */
+    --rwd-normal-font-size: 14px;
+    /* mb */
+    --mb-headandfoot: 80px;
+    --mb-normal: 32px;
+    --mb-box: 16px;
+    --mb-small: 12px;
+    --mb-smaller: 8px;
+    /* rwd mb */
+    --rwd-mb-headandfoot: 30px;
+    --rwd-mb-normal: 15px;
+    /* mr */
+    --mr--card: 24px;
+    /* box-shadow */
+    --box-shadow: 5px 5px 10px #BCAA9A50;
+    --box-shadow-footer: -5px -5px 10px #BCAA9A50;
+    /* outline */
+    --normal-outline: 1px solid var(--main-color);
+    --soldout-outline: 1px solid var(--soldout-color);
+}
+
+
+/* nadia */
+
+.nadia_row_top {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* .nadia_row_top small{
+    font-size: var(--small-font-size);
+} */
+
+.nadia_carousel {
+    width: 894px;
+    height: 528px;
+}
+
+.nadia_info {
+    margin-top: -8px;
+    margin-left: 15px;
+}
+
+.nadia_info p {
+    font-size: var(--title-font-size);
+}
+
+.nadia_first {
+    cursor: pointer;
+}
+
+.nadia_second {
+    width: 282px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_second_heart {
+    width: 15px;
+    /* height: 15px; */
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nadia_third {
+    margin-top: 12px;
+    cursor: default;
+}
+
+.nadia_fourth {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.nadia_fourth_color {
+    display: flex;
+    float: left;
+}
+
+.nadia_fourth ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nadia_fourth ul li {
+    margin-right: 15px;
+}
+
+.nadia_fourth_colorname {
+    cursor: default;
+}
+
+.nadia_fifth {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_fifth_sizeSM {
+    width: 79px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_fifth_sizeL {
+    width: 79px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    color: var(--soldout-color);
+    border: var(--soldout-outline);
+    cursor: not-allowed;
+}
+
+.nadia_sixth {
+    width: 282px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--normal-outline);
+    margin-top: 16px;
+}
+
+.nadia_sixth_minus {
+    width: 9px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nadia_cartnumber {
+    cursor: default;
+}
+
+.nadia_sixth_plus {
+    width: 9px;
+    height: 9px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nadia_seventh {
+    width: 282px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--soldout-outline);
+    margin-top: 20px;
+    cursor: not-allowed;
+}
+
+.nadia_seventh span {
+    color: var(--soldout-color);
+}
+
+.nadia_eighth {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nadia_eighth_left {
+    width: 129px;
+    height: 32px;
+    text-align: center;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_eighth_right {
+    width: 129px;
+    height: 32px;
+    text-align: center;
+    border: var(--normal-outline);
+    cursor: pointer;
+}
+
+.nadia_ninth {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.nadia_row_bottom {
+    /* width: 894px; */
+    height: 215px;
+}
+
+.nadia_recommend {
+    display: flex;
+    cursor: default;
+    margin-bottom: var(--mb-normal);
+    margin-top: 32px;
+    margin-left: 25px;
+}
+
+.nadia_recommend p {
+    margin-right: 32px;
+}
+
+.nadia_recommend_goods {
+    display: flex;
+    align-items: center;
+}
+
+.nadia_recommend_goods_data_slick_first img {
+    width: 164px;
+    height: 164px;
+    object-fit: cover;
+    display: flex;
+    float: left;
+    margin-left: 15px;
+}
+
+.nadia_recommend_goods_data_slick img {
+    width: 164px;
+    height: 164px;
+    object-fit: cover;
+    display: flex;
+    float: left;
+    margin-left: 40px;
+}
+
+.nadia_recommend_goods_chevronleft {
+    cursor: pointer;
+}
+
+.nadia_recommend_goods_chevronright {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nadia_carousel {
+    position: relative;
+}
+
+.nadia_carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nadia_carousel_goods_one {
+    width: 180px;
+    height: 248px;
+    position: absolute;
+    top: 155px;
+    opacity: .7;
+    z-index: 1;
+}
+
+.nadia_carousel_goods_two {
+    width: 242px;
+    height: 334px;
+    position: absolute;
+    top: 105px;
+    left: 75px;
+    opacity: .7;
+    z-index: 2;
+}
+
+.nadia_carousel_goods_three {
+    width: 286px;
+    height: 394px;
+    position: absolute;
+    top: 70px;
+    left: 185px;
+    opacity: .7;
+    z-index: 3;
+}
+
+.nadia_carousel_goods_four {
+    width: 331px;
+    height: 456px;
+    position: absolute;
+    top: 35px;
+    left: 331px;
+    opacity: .7;
+    z-index: 4;
+}
+
+.nadia_carousel_goods_five {
+    width: 384px;
+    height: 528px;
+    position: absolute;
+    right: 10px;
+    z-index: 5;
+}
+
+.nadia_carousel_goods_chevronleft {
+    position: absolute;
+    top: 250px;
+    right: 365px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.nadia_carousel_goods_chevronright {
+    position: absolute;
+    top: 250px;
+    right: 25px;
+    z-index: 5;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.143" height="22" viewBox="0 0 27.143 22">
+  <g id="shopping-cart" transform="translate(1 1)">
+    <ellipse id="Oval" cx="1.143" cy="0.952" rx="1.143" ry="0.952" transform="translate(8 18.095)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Oval-2" data-name="Oval" cx="1.143" cy="0.952" rx="1.143" ry="0.952" transform="translate(20.571 18.095)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path" d="M0,0H4.571L7.634,12.752A2.231,2.231,0,0,0,9.92,14.286H21.029a2.231,2.231,0,0,0,2.286-1.533l1.829-7.99H5.714" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

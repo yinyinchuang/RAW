@@ -1,0 +1,294 @@
+.memberCenter {
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.list:hover {
+    height: 60px;
+    background: rgba(188, 170, 154, .25);
+    margin: -1px 0 -1px 0;
+    border: 1px solid #BCAA9A;
+}
+
+.list {
+    height: 60px;
+    border: 1px solid #BCAA9A;
+    line-height: 60px;
+    margin: -1px 0 -1px 0;
+}
+
+.mainCorner {
+    width: 894px;
+    margin-left: 66px;
+}
+
+.bookmark {
+    width: 300px;
+    height: 60px;
+    background-color: #BCAA9A;
+    font-size: 20px;
+    color: #fafafa;
+    line-height: 60px;
+    text-align: center;
+}
+
+.memberCard {
+    width: 894px;
+    height: 440px;
+    border: 1px solid #BCAA9A;
+    margin-bottom: 30px;
+}
+
+.memberCard p {
+    margin: 30px;
+}
+
+.round {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #BCAA9A;
+    border-radius: 50%;
+}
+
+.colorRoundGroup {
+    height: 200px;
+    border-top: 2px solid #BCAA9A;
+    border-bottom: 2px solid #BCAA9A;
+    margin: 120px 50px 0 0;
+}
+
+.colorBall {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px dashed #BCAA9A;
+    margin: 12px;
+
+}
+
+.colorClothGroup {
+    margin-top: 120px;
+}
+
+.colorCloth {
+    width: 150px;
+    height: 200px;
+    border: 1px dashed #BCAA9A;
+    margin-right: 15px;
+}
+
+.coupon {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.couponTop {
+    width: 290px;
+    height: 100px;
+    border-top: 1px solid #BCAA9A;
+    border-left: 1px solid #BCAA9A;
+    border-right: 1px solid #BCAA9A;
+    border-bottom: 1px dashed #BCAA9A;
+}
+
+.couponBottom {
+    width: 290px;
+    height: 88px;
+    border-left: 1px solid #BCAA9A;
+    border-right: 1px solid #BCAA9A;
+    border-bottom: 1px solid #BCAA9A;
+}
+/* progressbar */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+
+
+.progress-bar {
+	position: relative;
+	width: 500px;
+	height: 3em;
+	background-color: #BCAA9A;
+	border-radius: 1.5em;
+	color: white;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(50% - 1em);
+	background-color: #fafafa;
+	border-radius: 1em;
+	padding: 1em;
+}
+.couponButton{
+    margin: 30px auto;
+    width: 210px;
+    height: 32px;
+    background-color: #BCAA9A;
+    border: 0pc solid #BCAA9A;
+    margin-bottom: 30px;
+    color: #fafafa;
+    text-align: center;
+    line-height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+@media (width:375px) {
+    .bookmarkRWD {
+        width: 159px;
+        height: 40px;
+        background-color: #BCAA9A;
+        font-size: 20px;
+        color: #fafafa;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        /* margin-top: 15px; */
+        margin-left: 15px;
+    }
+    
+    .memberCardRWD {
+        width: 345px;
+        height: 229px;
+        border: 1px solid #BCAA9A;
+        margin-bottom: 15px;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+  
+    .listRWD{
+        width: 345px;
+        height: 40px;
+        border: 1px solid #BCAA9A;
+    }
+
+ 
+    .roundRWD {
+        margin: 30px;
+        margin-left: 138px;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #BCAA9A;
+        border-radius: 50%;
+        
+    }
+    .colorRoundGroupRWD {
+        height: 150px;
+        border-top: 2px solid #BCAA9A;
+        border-bottom: 2px solid #BCAA9A;
+        margin: 17px 0;
+    }
+    .colorBallRWD {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px dashed #BCAA9A;
+        margin: 9px;
+    }
+    .couponButtonRWD{
+        width: 180px;
+        height: 32px;
+        background-color: #BCAA9A;
+        border: 0pc solid #BCAA9A;
+        margin-bottom: 30px;
+        color: #fafafa;
+        text-align: center;
+        line-height: 32px;
+    }
+    .couponRWD {
+        margin-top: 20px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    
+    .couponTopRWD {
+        width: 160px;
+        height: 80px;
+        border-top: 1px solid #BCAA9A;
+        border-left: 1px solid #BCAA9A;
+        border-right: 1px solid #BCAA9A;
+        border-bottom: 1px dashed #BCAA9A;
+    }
+    
+    .couponBottomRWD {
+        width: 160px;
+        height: 60px;
+        border-left: 1px solid #BCAA9A;
+        border-right: 1px solid #BCAA9A;
+        border-bottom: 1px solid #BCAA9A;
+    }
+/* test */
+
+
+    text {
+        font-family: "RamaGothicM-Heavy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 16rem;
+        fill: #BCAA9A;
+      }
+      
+      #donut {
+      
+        margin: 0 auto;
+      }
+      
+      path.color0 {
+        fill: #BCAA9A;
+      }
+      
+      path.color1 {
+        fill: #35526b;
+      }
+
+
+
+
+
+
+
+
+
+    
+}
